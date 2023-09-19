@@ -190,3 +190,15 @@ h3{
     border-radius: 8px;
     border-width: 2px;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.footer p{
+    margin:0;
+}
