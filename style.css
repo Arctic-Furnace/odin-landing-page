@@ -37,6 +37,7 @@ body{
 .hero{
     padding:100px 0px;
     display: flex;
+    justify-content: space-between;
     gap:32px;
 }
 
