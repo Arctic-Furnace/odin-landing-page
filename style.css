@@ -53,14 +53,14 @@ body{
     margin:0;
 }
 
-.header-button{
+button{
     background-color: #3882F6;
     font-weight: bold;
     font-size: 20px;
     color:#F9FAF8;
     border-radius: 8px;
-    width:150px;
-    height: 45px;
+    width:140px;
+    height: 40px;
     border: 0;
 }
 
@@ -138,8 +138,9 @@ h2{
 }
 
 .quote{
+    display: flex;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
     margin: 0;
@@ -148,8 +149,44 @@ h2{
 }
 
 .reference{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     padding-right: 50px;
     align-self: flex-end;
+    color: #1F2937;
+}
+
+.cta-section{
+    margin:100px 160px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
+    border-radius: 8px;
+}
+
+.cta-left{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+h3{
+    font-size: 28px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-section p{
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.cta-right button{
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
 }
